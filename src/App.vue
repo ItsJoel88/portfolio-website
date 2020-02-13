@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Navbar />
-    <Hello />
+    <About />
+    <Project />
     <div id="footer">
       <Contact />
     </div>
@@ -10,14 +11,16 @@
 
 <script>
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import Contact from "./components/Contact";
-import Hello from "./components/Hello";
+import Project from "./components/Project";
 
 export default {
   components: {
     Navbar,
+    About,
     Contact,
-    Hello
+    Project
   }
 };
 </script>
